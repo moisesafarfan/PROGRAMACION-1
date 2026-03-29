@@ -1,27 +1,29 @@
-#include <iostream>
+#include <iostream>          // Nombre del estudiante: Moisés Abinadí Farfan González
 using namespace std;
 
 int main() {
-    
-    string usuario = "admin";
-    int contrasena = 2026;
 
-    cout << "Ingrese su usuario: ";
-    cin >> usuario;
+    string usuario = "";
+    int contrasena = 0;
+    int intentosFallidos = 0;
 
-    cout << "Ingrese su contraseña: ";
-    cin >> contrasena;  
+    while (usuario != "admin" or contrasena != 2026) {
 
+        cout << "Ingrese usuario: ";
+        cin >> usuario;
 
-    while (usuario == "admin" && contrasena == 2026) {
-        cout << "Bienvenido al sistema." << endl;
-        cout << "Acceso concedido." << endl; }
-        if (usuario != "admin" || contrasena != 2026) {
-            cout << "Ingrese usuario:  << usuario << endl;
-            cout << "Ingrese contraseña: " << contrasena << endl;
-            
-            cout << "Datos incorrectos. "; 
-             
+        cout << "Ingrese contraseña: ";
+        cin >> contrasena;
+
+        if (usuario != "admin" or contrasena != 2026) {
+            cout << "Datos incorrectos." << endl;
+            intentosFallidos++;
         }
+    }
 
-}
+    cout << "Bienvenido al sistema." << endl;
+    cout << "Acceso concedido." << endl;
+    cout << "Intentos incorrectos: " << intentosFallidos << endl;
+
+    return 0;
+}                      
