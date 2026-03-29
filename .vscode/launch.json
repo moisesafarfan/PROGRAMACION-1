@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Moi/Documents/GitHub/PROGRAMACION-1/Hojas de trabajo/Hoja de trabajo 3",
-      "program": "c:/Users/Moi/Documents/GitHub/PROGRAMACION-1/Hojas de trabajo/Hoja de trabajo 3/build/Debug/outDebug",
+      "cwd": "c:/Users/Moi/Documents/GitHub/PROGRAMACION-1/Hojas de trabajo/Hola de trabajo 4 - Switch",
+      "program": "c:/Users/Moi/Documents/GitHub/PROGRAMACION-1/Hojas de trabajo/Hola de trabajo 4 - Switch/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
