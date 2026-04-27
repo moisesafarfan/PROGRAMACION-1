@@ -1,1 +1,10 @@
 Arroz,Moises Abinadi Farfan Gonzalez,20,15.5,310
+Moises Abinadi Farfan Gonzalez,Arroz,4,50.00,200.00,0.00,200.00,Efectivo
+Abel Castillo,Naranjas,12,5.00,60.00,0.00,60.00,Tarjeta
+Marta antonia,Aceite,30,15.00,450.00,0.00,450.00,Transferencia
+Moises Abinadi Farfan Gonzalez,Arroz,50,5.00,250.00,0.00,250.00,Efectivo
+Abel castillo,Aceite,30,15.00,450.00,0.00,450.00,Tarjeta
+Andrea Castellanos,Masa,20,20.00,400.00,0.00,400.00,Transferencia
+Moises Abinadi Farfan Gonzalez,Arroz,30,10.00,300.00,6.00,294.00,Efectivo
+Abel castillo,Leche,20,15.00,300.00,0.00,300.00,Tarjeta
+Marta Ruiz,Frijol,20,5.00,100.00,0.00,100.00,Transferencia
