@@ -1,5 +1,13 @@
 ## Avance 1 – Diseño y Análisis del Sistema
 
+*Avance 1 — Diseño y Análisis del Sistema*
+
+*Curso: Programación 1*
+
+*Nombre del alumno: Moisés Abinadí Farfan González*
+
+*9941 - 25 - 86*
+
 ---
 
 # Descripción del Proyecto
@@ -590,6 +598,9 @@ El Avance 2 contendrá la implementación completa de todas las funciones.
 ---
 
 *Avance 1 — Diseño y Análisis del Sistema*
-Curso: Programación 1
-Nombre del alumno: Moisés Abinadí Farfan González
-9941 - 25 - 86
+
+*Curso: Programación 1*
+
+*Nombre del alumno: Moisés Abinadí Farfan González*
+
+*9941 - 25 - 86*
