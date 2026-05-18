@@ -1,4 +1,3 @@
-# Sistema de Administración de Tienda en C++
 ## Avance 1 – Diseño y Análisis del Sistema
 
 ---
@@ -13,7 +12,7 @@ Toda la información se persiste en archivos binarios (`productos.dat` y `ventas
 
 ---
 
-## 1. ALGORITMO GENERAL
+## 1. Algoritmo general
 
 ### Idea central
 El sistema es un programa de consola que se ejecuta en un ciclo continuo. Al iniciarse carga los datos desde archivos binarios (`productos.dat` y `ventas.dat`), luego presenta un menú con cuatro módulos. El usuario navega el menú, realiza operaciones y el programa persiste los cambios en disco antes de volver al menú. El ciclo se repite hasta que el usuario elige salir.
