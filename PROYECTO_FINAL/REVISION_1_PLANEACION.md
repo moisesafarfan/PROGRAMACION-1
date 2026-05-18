@@ -34,7 +34,7 @@ El sistema es un programa de consola que se ejecuta en un ciclo continuo. Al ini
 
 ## Diagrama de Flujo del Sistema
 
-![Diagrama de Flujo](assets/diagrama_flujo_sistema_tienda.svg)
+![Diagrama de Flujo](imagenes/diagrama_flujo_sistema_tienda.svg)
 
 ---
 
