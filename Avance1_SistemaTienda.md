@@ -3,7 +3,17 @@
 
 ---
 
-## 1. ALGORITMO GENERAL (Descripción narrativa)
+# Descripción del Proyecto
+
+El presente proyecto consiste en el desarrollo de un sistema en C++ orientado a la administración de ventas e inventario para una tienda.
+
+El sistema permitirá gestionar productos, controlar stock, registrar ventas y generar reportes estadísticos mediante el uso de archivos binarios, programación estructurada y modularización.
+
+Además, se implementarán validaciones, búsquedas, ordenamientos y manejo de excepciones para mejorar la integridad y organización del sistema.
+
+---
+
+## 1. ALGORITMO GENERAL
 
 ### Idea central
 El sistema es un programa de consola que se ejecuta en un ciclo continuo. Al iniciarse carga los datos desde archivos binarios (`productos.dat` y `ventas.dat`), luego presenta un menú con cuatro módulos. El usuario navega el menú, realiza operaciones y el programa persiste los cambios en disco antes de volver al menú. El ciclo se repite hasta que el usuario elige salir.
@@ -73,7 +83,7 @@ PROGRAMA SistemaTienda
     FIN
 
   ═══════════════════════════════════════════════
-  MÓDULO 1 — Gestión de Productos
+  MÓDULO 1 — Gestión de Productos Pseudocódigo
   ═══════════════════════════════════════════════
 
   FUNCIÓN registrarProducto()
@@ -167,7 +177,7 @@ PROGRAMA SistemaTienda
     FIN
 
   ═══════════════════════════════════════════════
-  MÓDULO 2 — Proceso de Venta
+  MÓDULO 2 — Proceso de Venta Pseudocódigo
   ═══════════════════════════════════════════════
 
   FUNCIÓN procesarVenta()
@@ -243,7 +253,7 @@ PROGRAMA SistemaTienda
     FIN
 
   ═══════════════════════════════════════════════
-  MÓDULO 3 — Reportes
+  MÓDULO 3 — Reportes Pseudocódigo
   ═══════════════════════════════════════════════
 
   FUNCIÓN ordenarBubble(criterio : entero)
@@ -323,7 +333,7 @@ PROGRAMA SistemaTienda
     FIN
 
   ═══════════════════════════════════════════════
-  MÓDULO 4 — Utilidades del Sistema
+  MÓDULO 4 — Utilidades del Sistema Pseudocódigo
   ═══════════════════════════════════════════════
 
   FUNCIÓN exportarReporte()
@@ -373,7 +383,7 @@ FIN PROGRAMA
 
 ---
 
-## 3. DECLARACIÓN DE ESTRUCTURAS Y VARIABLES EN C++
+## 3. DECLARACIÓN DE ESTRUCTURAS Y VARIABLES PROPUESTAS
 
 ```cpp
 // ═══════════════════════════════════════════════════════
@@ -463,7 +473,7 @@ int ventasPorMes[MAX_MESES][MAX_VENTAS];
 int conteoVentasMes[MAX_MESES] = {0};  // cuántas ventas hay por mes
 
 // ───────────────────────────────────────────────────────
-//  PROTOTIPOS DE FUNCIONES  (implementación en avance 2)
+//  PROTOTIPOS DE FUNCIONES 
 // ───────────────────────────────────────────────────────
 
 // Archivos
@@ -513,7 +523,7 @@ int    obtenerMesActual();
 int    contarActivos();
 
 // ───────────────────────────────────────────────────────
-//  FUNCIÓN MAIN  (estructura básica)
+//  FUNCIÓN MAIN 
 // ───────────────────────────────────────────────────────
 int main() {
     // Inicializar matriz de ventas por mes a cero
