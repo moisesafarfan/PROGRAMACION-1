@@ -13,6 +13,33 @@ Toda la información se persiste en archivos binarios (`productos.dat` y `ventas
 
 ---
 
+## 1. ALGORITMO GENERAL
+
+### Idea central
+El sistema es un programa de consola que se ejecuta en un ciclo continuo. Al iniciarse carga los datos desde archivos binarios (`productos.dat` y `ventas.dat`), luego presenta un menú con cuatro módulos. El usuario navega el menú, realiza operaciones y el programa persiste los cambios en disco antes de volver al menú. El ciclo se repite hasta que el usuario elige salir.
+
+### Pasos del algoritmo principal
+
+1. **Inicialización**: Intentar abrir `productos.dat` y `ventas.dat`. Si no existen, crearlos vacíos.
+2. **Ciclo principal** (se repite hasta salir):
+   - Mostrar menú principal con las 4 opciones de módulo + salir.
+   - Leer opción del usuario con validación (try/catch para entradas inválidas).
+   - Derivar al módulo correspondiente.
+3. **Módulo 1 – Gestión de productos**: CRUD sobre `struct Producto` persistido en `productos.dat`.
+4. **Módulo 2 – Proceso de venta**: Crear `struct Venta` con sus `struct DetalleVenta[]`, validar stock, calcular totales con IVA y descuentos, guardar en `ventas.dat`, descontar stock.
+5. **Módulo 3 – Reportes**: Leer ambos archivos, aplicar ordenamiento (Bubble Sort / Selection Sort), búsqueda secuencial/por código y llenar la matriz `ventasPorMes[12][N]`.
+6. **Módulo 4 – Utilidades**: Exportar a `.txt`, reiniciar inventario con confirmación, mostrar estadísticas.
+7. **Finalización**: Guardar estado final en archivos y cerrar el programa.
+
+
+
+## Diagrama de Flujo del Sistema
+
+![Diagrama de Flujo](assets/diagrama_flujo_sistema_tienda.svg)
+
+---
+
+
 # Objetivo General
 
 Desarrollar un sistema de consola en C++ que permita administrar productos, ventas e inventario mediante archivos binarios, aplicando programación estructurada, modularización, búsqueda, ordenamiento, validación de datos y manejo de excepciones.
@@ -32,15 +59,6 @@ Desarrollar un sistema de consola en C++ que permita administrar productos, vent
 - Exportar reportes a un archivo `.txt`.
 - Aplicar manejo de excepciones con `try/catch` en entradas y operaciones de archivos.
 
----
-
-# Tecnologías Utilizadas
-
-- **Lenguaje:** C++
-- **Paradigma:** Programación estructurada
-- **Persistencia de datos:** Archivos binarios (`.dat`)
-- **Entorno de desarrollo:** Visual Studio Code
-- **Compilador:** g++ (MinGW en Windows / g++ en Linux)
 
 ---
 
@@ -568,14 +586,11 @@ El proyecto se encuentra actualmente en la fase de:
 
 En el Avance 2 se implementará:
 
-- Menú principal funcional en C++
-- Registro real de productos con escritura en `productos.dat`
-- Lectura y visualización de productos desde archivo binario
-- Búsqueda por código y por nombre
-- Validaciones con `try/catch`
-- Proceso básico de ventas con cálculo de totales
+El Avance 2 contendrá la implementación completa de todas las funciones.
 
 ---
 
 *Avance 1 — Diseño y Análisis del Sistema*
-*Programación 1*
+Curso: Programación 1
+Nombre del alumno: Moisés Abinadí Farfan González
+9941 - 25 - 86
