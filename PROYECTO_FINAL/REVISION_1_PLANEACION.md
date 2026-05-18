@@ -30,7 +30,7 @@ El sistema es un programa de consola que se ejecuta en un ciclo continuo. Al ini
 6. **Módulo 4 – Utilidades**: Exportar a `.txt`, reiniciar inventario con confirmación, mostrar estadísticas.
 7. **Finalización**: Guardar estado final en archivos y cerrar el programa.
 
-
+---
 
 ## Diagrama de Flujo del Sistema
 
