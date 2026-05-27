@@ -336,7 +336,7 @@ El proyecto se encuentra en la fase de:
 
 ---
 
-# Próximo Avance Final
+# Próximo Avance 
 
 En la entrega final se completará:
 
