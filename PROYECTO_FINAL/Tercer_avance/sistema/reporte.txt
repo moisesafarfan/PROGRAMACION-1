@@ -1,0 +1,64 @@
+========================================
+   REPORTE DEL SISTEMA - TIENDA         
+========================================
+Generado: Sun May 31 15:47:16 2026
+
+----------------------------------------
+  INVENTARIO DE PRODUCTOS               
+----------------------------------------
+[101] Laptop Hp
+  Categoria : Electronica
+  Precio    : Q3500
+  Stock     : 5
+  Vendidos  : 5
+[102] Mouse Inalambrico
+  Categoria : Electronica
+  Precio    : Q150
+  Stock     : 25
+  Vendidos  : 0
+[103] Cuaderno
+  Categoria : Papeleria
+  Precio    : Q15
+  Stock     : 50
+  Vendidos  : 50
+[104] Mochila Escolar
+  Categoria : Accesorios
+  Precio    : Q250
+  Stock     : 15
+  Vendidos  : 0
+[105] Auriculares
+  Categoria : Electronica
+  Precio    : Q320
+  Stock     : 15
+  Vendidos  : 5
+
+Total productos activos: 5
+
+----------------------------------------
+  RESUMEN DE VENTAS                     
+----------------------------------------
+Venta #1 | Fecha: 2026-05-31 | Total: Q772.8
+Venta #2 | Fecha: 2026-05-31 | Total: Q19680.6
+
+Total de ventas    : 2
+Total recaudado    : Q20453.4
+
+----------------------------------------
+  VENTAS POR MES                        
+----------------------------------------
+Enero: 0 ventas | Q0
+Febrero: 0 ventas | Q0
+Marzo: 0 ventas | Q0
+Abril: 0 ventas | Q0
+Mayo: 2 ventas | Q20453.4
+Junio: 0 ventas | Q0
+Julio: 0 ventas | Q0
+Agosto: 0 ventas | Q0
+Septiembre: 0 ventas | Q0
+Octubre: 0 ventas | Q0
+Noviembre: 0 ventas | Q0
+Diciembre: 0 ventas | Q0
+
+========================================
+           FIN DEL REPORTE              
+========================================
