@@ -63,7 +63,7 @@ Desarrollar un sistema de consola en C++ que permita administrar productos, vent
 El sistema está separado en **12 archivos `.cpp` y `.h`**, cada uno con una responsabilidad específica:
 
 ```
-tienda/
+sistema/
 ├── main.cpp             → Menú principal, bienvenida y ciclo del programa
 ├── estructuras.h        → Structs, constantes y variables globales
 ├── archivos.h           → Prototipos de lectura/escritura de archivos
