@@ -80,26 +80,6 @@ tienda/
 
 ---
 
-# Cómo Compilar y Ejecutar
-
-### Compilar
-
-Abrir una terminal en la carpeta del proyecto y ejecutar:
-
-```bash
-g++ -o tienda main.cpp archivos.cpp productos.cpp ventas.cpp reportes.cpp utilidades.cpp -lm
-```
-
-### Ejecutar
-
-```bash
-# Windows:
-./tienda.exe
-
-# Linux / Mac:
-./tienda
-```
-
 ### Al iniciar el programa se mostrará:
 
 ```
